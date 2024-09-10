@@ -32,7 +32,7 @@
         </div>
       </div>
       <footer>
-        <a href="https://github.com/CookSleep/skyfetch" target="_blank">GitHub @CookSleep</a>
+        <a href="https://github.com/CookSleep/SkyFetch" target="_blank">GitHub @CookSleep</a>
       </footer>
     </div>
   </div>
@@ -123,7 +123,7 @@ export default {
         "description": this.lang === 'zh' 
           ? "SkyFetch是一个简单易用的工具，只需粘贴原始图片链接，即可快速获取BlueSky社交平台上图片的最高分辨率版本下载地址。"
           : "SkyFetch is a simple tool to quickly obtain high-resolution download links for images from the BlueSky social platform by pasting the original image link.",
-        "url": "https://cooksleep.github.io/skyfetch/",
+        "url": "https://cooksleep.github.io/SkyFetch/",
         "applicationCategory": "UtilityApplication",
         "operatingSystem": "All",
         "offers": {
