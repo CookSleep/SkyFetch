@@ -23,7 +23,7 @@ The code for this project was primarily written by `claude-3.5-sonnet` and `chat
 
 ## How to Use
 
-1. Visit [SkyFetch](https://cooksleep.github.io/skyfetch/).
+1. Visit [SkyFetch](https://cooksleep.github.io/SkyFetch/).
 2. In the BlueSky web version, long-press/right-click on an image and select "Open image in new tab".
 3. Copy the image URL from the new tab.
 4. Paste the copied URL into the SkyFetch input box.

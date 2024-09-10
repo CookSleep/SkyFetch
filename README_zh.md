@@ -23,7 +23,7 @@ SkyFetch 是一个简单易用的在线工具，用于获取 BlueSky 社交平�
 
 ## 如何使用
 
-1. 访问 [SkyFetch](https://cooksleep.github.io/skyfetch/) 。
+1. 访问 [SkyFetch](https://cooksleep.github.io/SkyFetch/) 。
 2. 在 BlueSky 网页版中，长按/右键图片并选择“在新标签页中打开图片”。
 3. 复制新标签页中的图片 URL。
 4. 将复制的 URL 粘贴到 SkyFetch 的输入框中。
