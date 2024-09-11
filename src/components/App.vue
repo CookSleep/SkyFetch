@@ -143,6 +143,17 @@ export default {
 </script>
 
 <style scoped>
+@font-face {
+  font-family: 'HarmonyOS Sans SC';
+  src: url('./assets/fonts/HarmonyOS_Sans_SC_Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'HarmonyOS Sans SC', sans-serif;
+}
+
 .container {
   display: flex;
   justify-content: center;
