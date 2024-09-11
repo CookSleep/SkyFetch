@@ -145,7 +145,7 @@ export default {
 <style scoped>
 @font-face {
   font-family: 'HarmonyOS Sans SC';
-  src: url('./assets/fonts/HarmonyOS_Sans_SC_Regular.ttf') format('truetype');
+  src: url('@/assets/fonts/HarmonyOS_Sans_SC_Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
