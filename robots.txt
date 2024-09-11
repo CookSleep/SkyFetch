@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cooksleep.github.io/SkyFetch/sitemap.xml
