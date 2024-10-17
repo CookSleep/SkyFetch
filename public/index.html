@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- 确保移动端页面不缩放，且内容适应视口 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="icon" href="<%= BASE_URL %>logo.svg" type="image/svg+xml">
     
     <title>SkyFetch</title>
@@ -32,6 +33,13 @@
     <meta name="twitter:image" content="<%= BASE_URL %>logo.svg">
     
     <style>
+      /* 确保页面内容不会超出视口 */
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-x: hidden;
+      }
       .noscript-container {
         position: fixed;
         top: 0;
