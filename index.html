@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 确保移动端页面不缩放，且内容适应视口 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" href="/SkyFetch/logo.svg" type="image/svg+xml">
+    
+    <title>SkyFetch</title>
+    
+    <!-- 中文描述 -->
+    <meta name="description" lang="zh" content="SkyFetch是一个简单易用的工具，只需粘贴图片链接，即可快速获取BlueSky社交平台上图片的最高分辨率版本下载地址。">
+    <meta name="keywords" lang="zh" content="SkyFetch, BlueSky, 图片下载, 高分辨率, 社交媒体工具, 原图">
+    
+    <!-- English description -->
+    <meta name="description" lang="en" content="SkyFetch is a simple tool to quickly obtain high-resolution download links for images from the BlueSky social platform by pasting the image link.">
+    <meta name="keywords" lang="en" content="SkyFetch, BlueSky, image download, high resolution, social media tool, original image">
+    
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="SkyFetch">
+    <meta property="og:description" lang="zh" content="快速获取BlueSky社交平台上图片的最高分辨率版本下载地址。">
+    <meta property="og:description" lang="en" content="Quickly obtain high-resolution download links for images from the BlueSky social platform.">
+    <meta property="og:image" content="/SkyFetch/logo.svg">
+    <meta property="og:url" content="https://cooksleep.github.io/SkyFetch/">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter card tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="SkyFetch">
+    <meta name="twitter:description" lang="zh" content="快速获取BlueSky社交平台上图片的最高分辨率版本下载地址。">
+    <meta name="twitter:description" lang="en" content="Quickly obtain high-resolution download links for images from the BlueSky social platform.">
+    <meta name="twitter:image" content="/SkyFetch/logo.svg">
+    
+    <style>
+      /* 确保页面内容不会超出视口 */
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-x: hidden;
+      }
+      .noscript-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 9999;
+      }
+      .noscript-message {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        max-width: 80%;
+      }
+      .noscript-message strong {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+      }
+      @media (min-width: 768px) {
+        .noscript-message {
+          font-size: 1.2em;
+        }
+      }
+    </style>
+  <script defer src="/SkyFetch/js/chunk-vendors.c9f45508.js"></script><script defer src="/SkyFetch/js/app.49654896.js"></script><link href="/SkyFetch/css/app.ce75dcfc.css" rel="stylesheet"></head>
+  <body>
+    <noscript>
+      <div class="noscript-container">
+        <div class="noscript-message">
+          <strong lang="en">We're sorry but SkyFetch doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+          <strong lang="zh">很抱歉，SkyFetch 需要启用 JavaScript 才能正常工作。请启用它以继续。</strong>
+        </div>
+      </div>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
